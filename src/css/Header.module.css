@@ -1,0 +1,25 @@
+.header {
+    background-color: #609966;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    padding-left: 30px;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.price {
+    display: inline-block;
+}
+.cartButton {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    
+}

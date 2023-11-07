@@ -2,6 +2,8 @@ import { ReactElement, memo } from "react";
 
 import { ProductType } from "../context/ProductsProvider";
 import { ReducerActionType, ReducerAction } from "../context/CartProvider";
+import styles from '../css/Product.module.css'
+
 type PropsType = {
     product: ProductType;
     dispatch: React.Dispatch<ReducerAction>;
@@ -38,7 +40,7 @@ const Product = ({
                 }).format(product.price)}
                 {itemInCart}
             </p>
-            <button onClick={onAddToCart}>Add to Cart</button>
+            <button className={styles.productButton} onClick={onAddToCart}>Add to Cart</button>
         </article>
     );
 

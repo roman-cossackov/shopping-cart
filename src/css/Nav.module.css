@@ -1,0 +1,34 @@
+.cartIcon {
+    margin: 17px 30px;
+    padding-top: 3px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.cartIcon:hover {
+    color: #edf1d6;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.productButton {
+    margin: 10px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #9dc08b;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.productButton:hover {
+    background-color: #edf1d6;
+    transform: scale(1.05);
+}
+@media screen and (max-width: 600px) {
+    .e-commerce-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
