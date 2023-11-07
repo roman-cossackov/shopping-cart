@@ -35,7 +35,7 @@ export const ProductsProvider = ({ children }: ChildrenType): ReactElement => {
                 .catch((err) => {
                     if (err instanceof Error) console.log(err.message);
                 });
-            return data;
+            return data.products;
         };
 
         fetchProducts().then((products) => setProducts(products));

@@ -1,4 +1,4 @@
-import { ReactElement, memo } from "react";
+import { ReactElement, memo, ChangeEvent } from "react";
 
 import { CartItemType } from "../context/CartProvider";
 import { ReducerAction } from "../context/CartProvider";
